@@ -34,7 +34,7 @@ if __name__ == "__main__":
     
     if counts:
         print(f"\nThe sequential process finished in {end_time - start_time:.4f} seconds.")
-        print(f"The total number of words found: {len(counts)}")
+        print(f"The total number of distinct words found: {len(counts)}")
         print("\nThe 10 most common words are:")
         for word, freq in counts.most_common(10):
             print(f"{word}: {freq}")
